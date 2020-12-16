@@ -57,7 +57,6 @@
 \usepackage{ctex}
 \usepackage{amsmath}
 \usepackage{siunitx}
-\bibliography{test.bib}
 
 
 \begin{document}
@@ -93,7 +92,7 @@
 
 \subsection{\label{sec:Phybg}物理背景}
 
-相对论性重离子碰撞是研究量子色动力学特别是夸克胶子等离子体（QGP）的重要甚至是目前唯一的实验手段。由于QCD的跑动耦合常数（如图\ref{fig:Running}）带来的渐进自由效应，QGP的性质无法通过第一性原理微扰计算得到，格点数值计算也因为计算资源的限制举步维艰，使得人类目前只能从一些唯象角度进行建模。
+相对论性重离子碰撞是研究量子色动力学特别是夸克胶子等离子体（QGP）的重要甚至是目前唯一的实验手段\cite{Ruan:2005hy}\cite{Dong:2005iq}。由于QCD的跑动耦合常数（如图\ref{fig:Running}）带来的渐进自由效应，QGP的性质无法通过第一性原理微扰计算得到，格点数值计算也因为计算资源的限制举步维艰，使得人类目前只能从一些唯象角度进行建模\cite{Qiu:2013wca}。
 \begin{figure}[htbp]
     \includegraphics[width = 0.4\textwidth]{Plots/Running.png}
     \caption{\label{fig:Running}QCD的跑动耦合常数}
@@ -104,15 +103,15 @@
     \includegraphics[width = 0.4\textwidth]{Plots/QCDPD.png}
     \caption{\label{fig:QCD}QCD相图，QGP位于高温高密区域}
 \end{figure}
-但是，当QGP第一次被提及时，它的性质被认为和气体相似\footnote{但又并非是强子气体（Hadron Resonance Gas）。}，即夸克、胶子之间的相互作用很弱。在没有相关实验数据之前，这种观点一直占据主导地位。但当第一次对相对论性重离子碰撞的中心快度区域进行观测后，人们发现了诸如在末态强子谱中存在角度关联等实验证据，进而意识到QGP中的夸克胶子间的相互作用强于预期。
+但是，当QGP第一次被提及时，它的性质被认为和气体相似\footnote{但又并非是强子气体（Hadron Resonance Gas）。}，即夸克、胶子之间的相互作用很弱。在没有相关实验数据之前，这种观点一直占据主导地位。但当第一次对相对论性重离子碰撞的中心快度区域进行观测后，人们发现了诸如在末态强子谱中存在角度关联等实验证据，进而意识到QGP中的夸克胶子间的相互作用强于预期\cite{Adams:2005dq}。
 \subsubsection{\label{sec:HIC}相对论性重离子碰撞}
-由于跑动耦合常数带来的渐近自由效应，想要产生QGP，就不得不要求系统处在极端高温高密的环境下。相比于传统的质子与电子对撞机，重离子碰撞有着的初始能量密度随着原子数增加呈幂指数律增加的同时对于碰撞能量仅仅是幂次增加这一优势，特别适用于产生QGP信号并进行寻找。而在世界上的这些相对论性重离子碰撞实验中比较重要与引人注目的，当数位于美国纽约长岛布鲁克海文国家实验室（BNL）的相对论性重离子对撞机（RHIC）和其上的相关实验。
+由于跑动耦合常数带来的渐近自由效应，想要产生QGP，就不得不要求系统处在极端高温高密的环境下。相比于传统的质子与电子对撞机，重离子碰撞有着的初始能量密度随着原子数增加呈幂指数律增加的同时对于碰撞能量仅仅是幂次增加这一优势，特别适用于产生QGP信号并进行寻找。而在世界上的这些相对论性重离子碰撞实验中比较重要与引人注目的，当数位于美国纽约长岛布鲁克海文国家实验室（BNL）的相对论性重离子对撞机（RHIC）和其上的相关实验\cite{Adams:2005dq}。
 \subsection{\label{sec:ExpBG}实验背景}
 \subsubsection{\label{sec:RHICBg}RHIC背景简述}
 作为美国高能物理实验重镇，BNL有着悠久的加速器传统，例如中国人耳熟能详的杨振宁与李政道的弱相互作用中宇称不守恒的理论工作，出发点是他们在BNL工作期间为了解释COSMOTRON加速器上所做粒子衰变实验的结果，又比如丁肇中发现$J/\psi$粒子，也是在BNL的AGS加速器上完成的。值得一提的是，AGS加速器的设计之初便考虑了对重离子的加速，后来，他也作为了RHIC的初级加速装置被保留了下来\footnote{类似的“传承”还有SPS与LHC。}。
 
 \subsubsection{\label{sec:RHICSpec}RHIC技术参数简介}
-下面对RHIC的技术参数做进一步的说明，其正式完成于1999年，是当时世界上加速能量最高的重离子对撞装置，可以达到$100\si{GeV/u}$。表\ref{tab:RhicSpec}中给出了RHIC的一些重要物理参数：
+下面对RHIC的技术参数做进一步的说明，其正式完成于1999年，是当时世界上加速能量最高的重离子对撞装置，可以达到$100\si{GeV/u}$。表\ref{tab:RhicSpec}中给出了RHIC的一些重要物理参数\cite{Ruan:2005hy}\cite{Dong:2005iq}：
 \begin{table}[htbp]
     \centering
     \caption{\label{tab:RhicSpec}RHIC的一些重要技术参数}
@@ -147,14 +146,14 @@ RHIC的物理目标就是为了达到产生QGP的相变条件，因此，在RHIC
     \includegraphics[width=0.4\textwidth]{Plots/STAR.png}
     \caption{\label{fig:STAR}STAR的示意图}
 \end{figure}
-STAR（Solenoidal Tracker At RHIC）作为RHIC对撞机上的一个主要探测器，如图\ref{fig:STAR}所示，由许多的次级探测器所组成，覆盖了整个方位角。在实验早期，组成STAR谱仪的探测器包括:时间投影室（Time Projection Chamber, TPC），前向的时间投影室（pair of radial-drift Forward TPC, FTPC），桶部的电磁量能器（Barrel ElectroMagnetic Calorimeter, BEMC），端部的 电磁量能器（Endcap ElectroMagnetic Calorimeter, EEMC），中央环形触发探测器（Central Scintillator Barrel, CTB），束流探测器（Beam Beam Counters, BBC），零度量能器（Zero Degree Calorimeters, ZDC），赝顶点探测器（pseudo-Vertex Position Detectors, pVPDs），环像的契伦科夫探测器（Ring-Imaging Cerenkov Retector, RICH），硅顶点探测器（Silicon Vertex Tracker, SVT）等，近年来，又增加了例如飞行时间谱仪（Time-Of-Flight detector, ToF），事件平面探测器（Event Plane Detector, EPD）和前向硅微条径迹探测器（Forward Silicon Tracker, FST）等。如图\ref{fig:STARXsec}展示了在2001年\footnote{STAR刚刚运行（2000）不久的时候。}的STAR剖面图。
+STAR（Solenoidal Tracker At RHIC）\cite{Adams:2005dq}\cite{Adams:2003kv}作为RHIC对撞机上的一个主要探测器，如图\ref{fig:STAR}所示，由许多的次级探测器所组成，覆盖了整个方位角。在实验早期，组成STAR谱仪的探测器包括:时间投影室（Time Projection Chamber, TPC），前向的时间投影室（pair of radial-drift Forward TPC, FTPC），桶部的电磁量能器（Barrel ElectroMagnetic Calorimeter, BEMC），端部的 电磁量能器（Endcap ElectroMagnetic Calorimeter, EEMC），中央环形触发探测器（Central Scintillator Barrel, CTB），束流探测器（Beam Beam Counters, BBC），零度量能器（Zero Degree Calorimeters, ZDC），赝顶点探测器（pseudo-Vertex Position Detectors, pVPDs），环像的契伦科夫探测器（Ring-Imaging Cerenkov Retector, RICH），硅顶点探测器（Silicon Vertex Tracker, SVT）等，近年来，又增加了例如飞行时间谱仪（Time-Of-Flight detector, ToF），事件平面探测器（Event Plane Detector, EPD）和前向硅微条径迹探测器（Forward Silicon Tracker, FST）等。如图\ref{fig:STARXsec}展示了在2001年\footnote{STAR刚刚运行（2000）不久的时候。}的STAR剖面图。
 \begin{figure}[htbp]
     \includegraphics[width = 0.4\textwidth]{Plots/STARXsec.png}
     \caption{\label{fig:STARXsec}2001年STAR的剖面图}
 \end{figure}
 如图\ref{fig:STARXsec}所示，STAR的各次级探测器，基本上都集中在其环形磁铁中，STAR的环形磁铁可以提供在束流方向上的0.25到0.50T的均匀磁场。
 \subsection{\label{sec:TPC}主要探测器：时间投影室}
-无论是从3D模型图还是STAR的剖面图中，都可以看出，时间投影室（TPC）是STAR各个次级探测器中体积最大的，事实上，TPC也的确是STAR最为重要的次级探测器，这里有一个单独拿出来的示意图\ref{fig:TPC}。
+无论是从3D模型图还是STAR的剖面图中，都可以看出，时间投影室（TPC）是STAR各个次级探测器中体积最大的，事实上，TPC也的确是STAR最为重要的次级探测器\cite{Ruan:2005hy}\cite{Dong:2005iq}，这里有一个单独拿出来的示意图\ref{fig:TPC}。
 \begin{figure}[htbp]
     \includegraphics[width = 0.4\textwidth]{Plots/TPC.png}
     \caption{\label{fig:TPC}TPC的示意图}
@@ -191,7 +190,7 @@ TPC的庞大体积，带来了令人艳羡的巨大探测范围：赝快度范�
 \subsection{\label{sec:ToF}重要探测器：飞行时间谱仪}
 如前文所述，TPC作为STAR的主要探测器有着许多优越的性能，但是，STAR也需要次级探测器来提高TPC的鉴别精度。这些为接下来要叙述的飞行时间谱仪（ToF）提供了背景。
 
-STAR的ToF主要由中国科学技术大学负责设计。传统来说，ToF一般由塑料闪烁体与光电倍增管组成。但是，由于STAR的覆盖面积太大，满足需求的传统ToF造价太高。鉴于在相对论性重离子碰撞中，大家大多关心末态粒子中的带电粒子，STAR提出用多层电阻板室（Multi-gap Resistive Plate Chamber，MRPC）来建造飞行时间探测器。
+STAR的ToF主要由中国科学技术大学负责设计\cite{Cheng}\cite{Ruan:2005hy}。传统来说，ToF一般由塑料闪烁体与光电倍增管组成。但是，由于STAR的覆盖面积太大，满足需求的传统ToF造价太高。鉴于在相对论性重离子碰撞中，大家大多关心末态粒子中的带电粒子，STAR提出用多层电阻板室（Multi-gap Resistive Plate Chamber，MRPC）来建造飞行时间探测器。
 
 用来建造飞行时间谱仪探测器的多层电阻板室具有六个220$\si{\micro m}$的间隙，它同时拥有六个读出条，每个读出条的面积约为$60\times32\si{mm\square}$。 多层电阻板室的示意图如图\ref{fig:MRPC}。
 \begin{figure}[htbp]
@@ -211,9 +210,9 @@ STAR的ToF主要由中国科学技术大学负责设计。传统来说，ToF一�
 
 \section{\label{sec:PhyRes}STAR的物理结果}
 \subsection{\label{sec:qgp}QGP的物理性质}
-STAR探测器是为了探测QGP的性质而设计的，而后来的实验证据表明，STAR可以说几乎完美的达到了设计的预期。下面我将介绍STAR与QGP相关的一些主要结果。
+STAR探测器是为了探测QGP的性质而设计的，而后来的实验证据表明，STAR很好的达到了设计的预期。下面我将介绍STAR与QGP相关的一些主要结果。
 \subsubsection{\label{sec:Flow}集体流}
-如果去翻阅STAR的出版物历史，集体流的测量可以称得上是STAR的开山之作。在这里，集体流指的是相对论性重离子碰撞中末态粒子动量分布的集体性，后来又被在小碰撞系统，如非对称的小核（氢，氘，氚）与金、铅等大核碰撞，或者甚至是质子对撞系统中所观测到。
+如果去翻阅STAR的出版物历史，集体流的测量可以称得上是STAR的开山之作\cite{Ackermann:2000tr}。在这里，集体流指的是相对论性重离子碰撞中末态粒子动量分布的集体性，后来又被在小碰撞系统，如非对称的小核（氢，氘，氚）与金、铅等大核碰撞，或者甚至是质子对撞系统中所观测到。
 
 集体流测量的基本观测量是集体流系数（Flow harmonics），
 \begin{equation}
@@ -231,25 +230,25 @@ STAR探测器是为了探测QGP的性质而设计的，而后来的实验证据�
 \end{equation}
 这一归一化后的集体流系数来衡量体系的各向异性。
 
-集体流的物理意义如同其定义一般明晰，如图\ref{fig:Config}给出了一个相对论性重离子碰撞事件的初态构型，
+集体流的物理意义如同其定义一般明晰，如图\ref{fig:Config}\cite{Qiu:2013wca}给出了一个相对论性重离子碰撞事件的初态构型，
 \begin{figure}[htbp]
     \includegraphics[width=0.4\textwidth]{Plots/Config.png}
     \caption{\label{fig:Config}一个相对论性重离子碰撞事件的初态核子构型}
 \end{figure}
-不难想象，根据碰撞参数（Impact Parameter）的不同，中心的重叠部分，尽管都是一个类似椭圆的形状，但其二阶离心率（Eccentricity）\footnote{这里的离心率是一个广义的概念，而不是说中心重叠部分真的是一个椭圆}$\varepsilon_2$是一个逐事件涨落的随机变量。经过QGP内部胶子和夸克之间相互作用的传导，这一坐标空间的各向异性会引发末态动量空间的各向异性如图\ref{fig:v2e2}。
+不难想象，根据碰撞参数（Impact Parameter）的不同，中心的重叠部分，尽管都是一个类似椭圆的形状，但其二阶离心率（Eccentricity）\footnote{这里的离心率是一个广义的概念，而不是说中心重叠部分真的是一个椭圆}$\varepsilon_2$是一个逐事件涨落的随机变量。经过QGP内部胶子和夸克之间相互作用的传导，这一坐标空间的各向异性会引发末态动量空间的各向异性如图\ref{fig:v2e2}\cite{Zhou:2020pai}。
 \begin{figure}[htbp]
     \includegraphics[width=0.4\textwidth]{Plots/v2e2.png}
     \caption{\label{fig:v2e2}相对论性重离子碰撞中初末态各向异性的响应}
 \end{figure}
 
-如图\ref{fig:v2}展示了STAR对二阶流的首次测量结果，
+如图\ref{fig:v2}展示了STAR对二阶流的首次测量结果\cite{Ackermann:2000tr}，
 \begin{figure}[htbp]
     \includegraphics[width=0.4\textwidth]{Plots/v2.png}
     \caption{\label{fig:v2}STAR对集体流的首次测量：积分流}
 \end{figure}
 横轴是事件的总带电粒子多重数（Multiplicity of Charge Particle)$n_{ch}$除以最大值$n_{max}$，这一比值是通过末态产出定义事件的中心度（Centrality）。图中实心点是实验的测量结果，而空心的矩形则是当时的流体力学（Hydrodynamics）给出的预测。在文章的最后总结部分指出，相比于先前的较为低能的重离子固定靶实验（SPS, AGS）等，在高能情形下，相比于相对论性量子分子动力学（RQMD）的预测，基于流体力学的预测能够更好的解释实验数据，这侧面证实了高能重离子对撞下系统的热化（Thermalization）已经比较完全\footnote{至少在非边缘碰撞事件为代表的大系统中}。换句话说，系统已经达到了局域平衡态，这一现象支持了QGP物质间的相互作用。
 
-在之后的实验中，相对论性重离子碰撞为QGP的性质提供了一个又一个有力的约束。举例来说，如图\ref{fig:v2pt}所限展示的在高横动量区域的压低，
+在之后的实验中，相对论性重离子碰撞为QGP的性质提供了一个又一个有力的约束。举例来说，如图\ref{fig:v2pt}\cite{Ackermann:2000tr}所限展示的在高横动量区域的压低，
 \begin{figure}[htbp]
     \includegraphics[width=0.4\textwidth]{Plots/v2pt.png}
     \caption{\label{fig:v2pt}STAR对集体流的首次测量：横动量微分流}
@@ -268,7 +267,7 @@ STAR探测器是为了探测QGP的性质而设计的，而后来的实验证据�
     \end{equation} 
     $R_{AA}$的物理意义，可以理解为实验上所观测到的强子谱，与把重核碰撞当成核子间碰撞得到的强子谱组合间的比值。
 
-    如图\ref{fig:RAA}展示了STAR的测量结果，
+    如图\ref{fig:RAA}展示了STAR的测量结果\cite{Adams:2003kv}，
     \begin{figure}[htbp]
         \includegraphics[width=0.4\textwidth]{Plots/RAA.png}
         \caption{\label{fig:RAA}核修正因子的测量结果}
@@ -276,7 +275,7 @@ STAR探测器是为了探测QGP的性质而设计的，而后来的实验证据�
     可以看出，在高横动量区间有着明显的压低效应，同时注意到，核修正因子的预测在微扰QCD下计算还是有一些不足之处。
     \item[$\Lambda$ 极化（$\Lambda$ Polarization）] 涡旋$Vortex$是流体力学研究的一个重要方面，代表了角动量效应。既然QGP的性质接近于液体，同时在相对论情形下有着极大的角动量，人们就开始期待是否能够对QGP中的涡旋效应进行测量。在这里，一个简单的方法是，考虑到轨道角动量和自旋的耦合，通过测量末态的极化，就能够探测到背景流体的涡旋结构。
     
-    通过测量$\Lambda$超子的极化如图\ref{fig:Lambda}，
+    通过测量$\Lambda$超子的极化\cite{STAR:2017ckg}如图\ref{fig:Lambda}，
     \begin{figure}[htbp]
         \includegraphics[width=0.4\textwidth]{Plots/Lambda.png}
         \caption{\label{fig:Lambda}$\Lambda$极化的测量结果}
@@ -292,13 +291,13 @@ STAR探测器是为了探测QGP的性质而设计的，而后来的实验证据�
 \end{equation}
 进行探测。
 
-在分析中，利用TPC重建的鉴别了粒子的径迹数据，人们可以重建出$^3\text{He}(^3\text{He})$和$\pi^-(\pi^+)$的径迹，再通过衰变顶点的几何进行筛选，最后重建出$^3\text{He}-\pi^-(^3\text{He}-\pi^+)$的不变质量如图\ref{fig:Hyperon}。这一不变质量峰也就显示出（反）超氢的产生。
+在分析\cite{Abelev:2010rv}中，利用TPC重建的鉴别了粒子的径迹数据，人们可以重建出$^3\text{He}(^3\text{He})$和$\pi^-(\pi^+)$的径迹，再通过衰变顶点的几何进行筛选，最后重建出$^3\text{He}-\pi^-(^3\text{He}-\pi^+)$的不变质量如图\ref{fig:Hyperon}。这一不变质量峰也就显示出（反）超氢的产生。
 \begin{figure}[htbp]
     \includegraphics[width=0.4\textwidth]{Plots/Hyperon.png}
     \caption{\label{fig:Hyperon}反超氢的测量}
 \end{figure}
 \subsubsection{\label{sec:antihelium4}反氦四}
-相比于反超氢，反氦四的观测更加直接，可以直接通过如图\ref{fig:dEdxAll}\ref{fig:dEdxHe4}的能损本领进行粒子鉴别。
+相比于反超氢，反氦四的观测\cite{Agakishiev:2011ib}更加直接，可以直接通过如图\ref{fig:dEdxAll}\ref{fig:dEdxHe4}的能损本领进行粒子鉴别。
 \begin{figure}[htbp]
     \includegraphics[width=0.4\textwidth]{Plots/dEdxAll.png}
     \caption{\label{fig:dEdxAll}整体的能损分辨本领}
@@ -315,6 +314,8 @@ STAR探测器是为了探测QGP的性质而设计的，而后来的实验证据�
 
 \section{\label{sec:Sum}总结}
 总而言之，QCD与QGP的复杂性需要相对论性重离子对撞实验的观测数据来指导模型的构建，因此位于BNL的RHIC和STAR成为了这一领域的焦点。STAR探测器的主体是他的时间投影室，因为时间投影室的优越性能，STAR可以在对带电粒子的径迹进行重构的同时，还能够对带电粒子进行很好的鉴别。这一点不仅仅对探测QGP事件末态的大量强子十分重要，还给人们探测反物质等提供了客观条件。同时，为了进一步提高STAR-TPC的分辨本领，考虑到STAR实验本身的需要，人们设计了基于多层电阻板室的飞行时间谱仪，这一谱仪加装后提高了STAR的探测本领，也使得一些新的分析得以开展。基于TPC的观测，人们发现了QGP的类液体性质，对QGP和QCD的认识有了一大步突破。此外，TPC，以及后续加装的ToF，也为反物质的探测提供了基础。
+
+\bibliography{test.bib}
 \end{document}
 %
 % ****** End of file apssamp.tex ******
